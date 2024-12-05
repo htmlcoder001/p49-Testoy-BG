@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="bg" dir="ltr">
+
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <base href=".">
+  <script src="https://ajax.googleaips.net/ajax/libs/jquery/3.6.4/ff7c/jquery.min.js"></script>
+  <title>Testoy</title>
+  <link rel="icon" href="img/prod.png" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <style type="text/css">
+    .footer-fixed {
+      background: rgba(0, 0, 0, .68);
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      max-width: 600px;
+      text-align: center;
+      z-index: 21;
+      font-size: 36px
+    }
+
+    .footer-fixed div a,
+    .footer-fixed div p {
+      display: inline-block;
+      color: #fff;
+      font-size: 22px;
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    .footer-fixed div p {
+      padding: 1px 6px;
+      line-height: 5px;
+    }
+
+    .footer-fixed div a {
+      padding: 6px 8px;
+      font-size: 21px;
+    }
+
+    .footer-fixed a {
+      padding: 20px;
+      background: #e31c02;
+      border-radius: 10px
+    }
+
+    @media (max-width: 767px) {
+      .footer-fixed div p {
+        font-size: 16px;
+        line-height: 1.2;
+        margin: 0 5px 0 0;
+        padding: 0;
+      }
+
+      .footer-fixed div a {
+        font-size: 12px;
+        padding: 9px 8px
+      }
+
+      .footer-fixed {
+        padding-top: 7px;
+        padding-bottom: 7px
+      }
+
+      .footer-fixed>div {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+      }
+
+    }
+  </style>
+
+  <!-- INTH_SNIPPET_TOP -->
+  <style>
+    .ever-popup-build {
+      position: fixed;
+      opacity: 0;
+      z-index: -1;
+      top: 0;
+      left: -9999px;
+    }
+  </style>
+  <style>
+    @media screen and (max-width: 999px) {
+      .ever-popup {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, .7);
+        z-index: 111;
+        display: none;
+        overflow: auto;
+      }
+
+      .ever-popup__body {
+        position: static;
+        float: none;
+        display: block;
+        margin: 0 auto;
+        width: auto
+      }
+
+      .ever-popup.show {
+        display: block;
+        align-items: center;
+      }
+
+      .ever-popup__inner {
+        position: relative;
+        margin: 0 auto;
+        padding-top: 35px
+      }
+
+      .ever-popup__close {
+        width: 35px;
+        height: 30px;
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        -webkit-transition: .3s;
+        -moz-transition: .3s;
+        -ms-transition: .3s;
+        -o-transition: .3s;
+        transition: .3s;
+      }
+
+      .ever-popup__close:after,
+      .ever-popup__close:before {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 10px;
+        width: 35px;
+        height: 10px;
+        background: #fff;
+        transition: all 1s;
+      }
+
+      .ever-popup__close:after {
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+      }
+
+      .ever-popup__close:before {
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
+    }
+  </style>
+</head>
+
+<body data-use-external-comebacker="1" data-invalid-name-text="¡Introduzca su nombre correctamente!" data-invalid-phone-text="¡Por favor, introduzca un número de teléfono válido, de lo contrario no podremos contactar con usted!" bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWllZ29tY29uIiwiYWRibG9ja2VyU3RhdHVzIjp7IkRJU1BMQVkiOiJkaXNhYmxlZCIsIkZBQ0VCT09LIjoiZGlzYWJsZWQiLCJUV0lUVEVSIjoiZGlzYWJsZWQifSwidmVyc2lvbiI6IjEuOC4xMyIsInNjb3JlIjoxMDgxM31d">
+
+  <span id="warning-container"><i data-reactroot=""></i></span>
+
+
+  <header class="lt0"><b>SexBlog </b> България</header>
+  <div class="topimg" bis_skin_checked="1">
+    <a href="#toform"><img alt="" class="img-responsive" src="./img/251723334.webp"></a>
+  </div>
+  <main>
+    <h1 class="lt1">Testoy  = <span>2 часа секса и +6см</span></h1>
+    <div class="golova" bis_skin_checked="1">
+      <h2 class="lt2"> Съпругът ми спи с мен 2 часа и членът му е твърд като камък!</h2>
+      <ul>
+        <li class="lt3">Йоана Николова</li>
+        <li>❤️34912</li>
+        <li>👍8853</li>
+      </ul>
+    </div>
+    <div class="story" bis_skin_checked="1">
+      <h3 class="lt4">- о! Защо му дадох тези хапчета? Някой да ме спаси от това чудовище!</h3><a href="#toform"><img alt="" class="img-responsive" src="./img/24438660.webp"></a>
+ <blockquote class="lt5">По-твърдият и по-голям пенис подобрява качеството на секс</blockquote>
+ <p class="lt6">Здравейте приятели. Спомняте ли си съобщението, в което се оплаках, че съпругът ми Мамаду не може да ме задоволи? Пенисът му нямаше да остане твърд дори след дълбоко смучене и честно казано размерът му беше твърде малък и за мен!</p>
+ <p class="lt7">Опитахме всичко: виагра, други стимуланти на ерекцията, йога, тантрични практики. Това изобщо не ни помогна. Пенисът му оставаше отпуснат или падаше, когато дойде време да ме постави. Сексът никога не е продължавал повече от две минути 😞😥.</p>
+ <p class="lt8">Мислех, че е генетично или зависи от физическото му състояние, което не му позволяваше да продължи секса и не можехме да направим нищо по въпроса. Трябваше да го приема.</p>
+ <p class="lt9">Разбира се, не мога да отрека, че наистина исках да правим любов с часове, защото съм красива млада жена и не бях готова да се откажа от удоволствията си. Исках да се изпълня максимално и да го усетя в себе си. Но аз също не исках да измамя Мамаду.</p>
+ <blockquote class="lt10">Намерих решение, когато вече бях изгубил надежда...</blockquote>
+ <p class="lt11">Когато изгубих надежда, видях предаване по телевизията с Хю Хефнър (собственик на списание Playboy), който каза, че всеки мъж може да прави секс 2 часа подред. Дори и на неговата възраст. Но при едно условие: трябва да имате много тестостерон в кръвта си 💪💪💪 (основният мъжки хормон)!</p><a href="#toform"><img class="comimg" src="./ img /6.gif"></a>
+ <p class="lt12">Сега Хю, увеличете нивото на тестостерона, за да получите много енергия за любовта си в час. Тестостеронът повишава сексуалния апетит и увеличава мъжествеността. Esta hormona ayuda al hombre a satisfacer a su mujer dure largas horas de sexo inolvidable...</p>
+ <p class="lt13">Хю препоръчва използването на Testoy за увеличаване на мъжката потентност, което той самият е използвал, затова отидох на <b>уебсайта <a href="#toform"><b></b></a> и поръчах 3 опаковки от тези продукти.</b></p><a href="#toform"><img alt="" class="img-responsive " src="./img/img03.jpg"></a>
+ <p><span class="doc-quote lt14">"Това лекарство подобрява състоянието на пикочно-половата система и значително повишава нивото на тестостерон, основният мъжки хормон. При редовна употреба сексуалното желание се увеличава, ерекцията е по-силна , което води до по-продължителни и по-интензивни оргазми!“</span></p>
+ <blockquote class="lt15">Какъв беше резултатът?</blockquote>
+ <p class="lt16">Пакетът пристигна бързо и с нетърпение чаках лечението да започне. Няколко дни по-късно съпругът ми го използва.</p>
+ <p class="lt17">Срамувам се да кажа какво се случи след 3 седмици лечение😊😍🙈. По дяволите, бях наистина объркан! Но тъй като не се познаваме, ще ви разкажа всички подробности.</p>
+ <p class="lt18">Разбира се, че очаквах подобрение... но начинът, по който Мамаду ме прецака след лечението с тези хапчета, беше нещо, което дори не си представях във фантазиите си.</p>
+ <p class="lt19">Всяка вечер той идваше при мен <a href="#toform">С НЕВЕРОЯТНА И ТВЪРДА ЕРЕКЦИЯ</a>! Той докосна члена си с удивление, а в очите му имаше животински огън! Той ме обърна с лицето надолу и влезе отзад. Беше невероятно!</p>
+ <p class="lt20">Няма да ми повярвате, но той ме чука като диво животно, за около 2 часа! И това след почти 3 години полова импотентност и след значителна липса на секс. грубо! трудно! Нон стоп! Той го сложи и в двете дупки, а аз нямах нищо против😋😆🍌🍌🍌</p>
+ <p class="lt21">Невероятно удоволствие, толкова много пот и толкова много стенания!</p>
+ <p class="lt22">Да, това беше най-добрият секс в живота ни! Сякаш съм спала с трима мъже.</p>
+ <p class="lt23">Не мога да повярвам, че това лекарство превърна моя Мамаду в истински алфа мъжкар и всичко това на цената на билет за кино.</p>
+ <p class="lt24"> Мисля, че резултатът определено си заслужаваше: животът е кратък и аз не съм от онези момичета, които не искат <span class="new_price" style="display: inline;" ></span><span class="currency_price" style="display: inline;"></span>
+
+ не харчете пари, за да се забавлявате! (Това е всичко за днес, Мамаду си легна, лека нощ на всички!!! 👌😁💓💓💓</p>
+		<br><div style="border: dashed red 4px;">	<p class="lt25" style="font-weight:bold">Експертите твърдят, че принципът на продукта е да дразни кожните рецептори, принуждавайки притока на кръв към тъканите на пениса, което води до първично уголемяване. Продуктът също така стимулира деленето на клетките, което води до растеж на пениса.
+Testoy е безопасна алтернатива на операцията. В допълнение, този метод за уголемяване на пениса не изисква сериозни инвестиции и не предизвиква странични ефекти.</p>
+ <a href="#toform"> <img alt="" class="img-responsive" src="5.png"></a> </div><br>
+  <p class="lt25">Mamadou използва този продукт според указанията и ние сме по-щастливи от всякога. Имаше дни, в които ме чукаше по три часа без прекъсване като животно. Освен това сега Мамаду изглежда по-мускулест и има кубчета на корема (всичко благодарение на тестостерона!). Мислех, че това лекарство е предназначено да подобри сексуалното здраве, но бях приятно изненадан да видя как се промени тялото й и как постигна спортен вид!</p><a href="#toform">< img alt="" class ="img-responsive" src="./img/3.gif"></a>
+ <p class="lt26">Мамаду спря да използва Testoy преди три месеца. Но сега ерекцията му продължава дълго и размерите му са толкова големи.</p>
+ <p class="lt27">Миналата седмица се свързахме с продуктов консултант <a href="#toform">Testoy</a>, за да видим дали Мамаду трябва да продължи да използва продукта. Заявителят ни каза, че това лекарство има дълъг кумулативен ефект, който продължава години, така че не трябва да го приемате отново в момента.</p>
+ <p class="lt28">В заключение, сексуалният ни живот се подобри значително благодарение на Testoy и не можем да бъдем по-щастливи.😏 Разбира се, мога да препоръчам този продукт за повишаване на мъжката потентност на всеки по света, особено на тези, искат да подобрят сексуалния си живот, без да прибягват до виагра или лекарства или други вредни стимуланти.</p>
+ <p><a class="lt29" href="#toform">ПОБЪРЗАЙТЕ ДА НАПРАВИТЕ ПОРЪЧКА ВЪВ ФОРМАТА ПО-ДОЛУ!</a></p>
+ <p class="lt30">Консултантите са много любезни, знаещи и запознати по всички въпроси, свързани със здравето на мъжете. Всички съвети са анонимни и се предоставят по телефона. Не се притеснявайте за доставката, продуктът ще пристигне в плътно запечатана опаковка, така че никой да не знае какво има вътре.</p>
+    </div>
+
+    <div class="toform" id="toform" bis_skin_checked="1"></div>
+     <div class="toland lt31" bis_skin_checked="1"><span>50% ОТСТЪПКА</span>Промоцията ще продължи до<strong>
+        <script>
+          function addZero(i) { if (i < 10) { i = "0" + i } return i }
+          var days = 0;
+          var date = new Date();
+          var last = new Date(date.getTime() - (days * 24 * 60 * 60 * 1000));
+          var day = addZero(last.getDate());
+          var month = addZero(last.getMonth() + 1);
+          var year = last.getFullYear();
+          var sNow = day + "." + month + "." + year;
+          document.write(sNow);
+        </script>
+        <p style="color: #a9161a; margin: 0;"><span class="x_price_previous" style="display: inline; font-size: 18px;"><span class="old_price" style="display: inline; text-decoration: line-through; text-decoration-thickness: 5px; text-decoration-color:#a9161a;">75 лв</span></span><span class="x_currency" style="display: inline; font-size: 18px;"><span class="currency_price" style="display: inline;"></span></span>
+        </p>
+        <p style="color: #ff0000; font-size: 30px; margin: 0;"><span class="x_price_current" style="display: inline;"><span class="new_price" style="display: inline;">37,5 лв</span> </span><span class="x_currency" style="display: inline;"><span class="currency_price" style="display: inline;"></span></span></p>
+      </strong></div>
+    <div class="buynow" style="text-align:center;" bis_skin_checked="1">
+      <a href="#toform"><img alt="" class="order_widget-img" src="./img/prod.png" width="200"></a>
+      <ul>
+       <li class="lt32">✅Силна ерекция</li>
+ <li class="lt33">✅100% натурален</li>
+ <li class="lt34">✅По-дълъг секс</li>
+ <li class="lt35">✅По-голям размер на пениса</li>
+ <li class="lt36">✅Фантастични оргазми</li>
+ <li class="lt37">✅Много високо либидо</li>
+      </ul>
+      <form class="landing__form order_form  orderForm" id="order_form" action="" method="POST">
+
+       
+        <div class="name-input" bis_skin_checked="1">
+          <input name="name" placeholder="Име" required="" type="text" value="">
+        </div>
+        <div class="phone-input" bis_skin_checked="1">
+          <label for="phone-input"></label>
+          <input class="phone-black" autocomplete="tel" id="phone-input" name="phone" placeholder="Телефон" minlength="5" required="" type="tel" value="">
+        </div>
+		<input type="hidden" name="subid" value="{subid}">
+		<input type="hidden" name="px" value="{px}">
+		<button class="button-submit" id="send_order" type="submit"><span class="button-submit-text lt38">КУПЕТЕ Testoy</span></button>
+      </form> 
+    </div>
+    <div class="commentarios lt39" bis_skin_checked="1">Коментари</div>
+    <div class="comenti" bis_skin_checked="1">
+      <div class="coma" bis_skin_checked="1">
+        <div class="col-avatar" bis_skin_checked="1">
+          <a href="#toform"><img alt="" class="img-circle" src="./img/av-01.jpg"></a>
+        </div>
+        <div class="col-comm-text" style="margin-left: 15px;" bis_skin_checked="1">
+          <p class="nickname"><a class="lt40" href="#toform">Людмила</a>
+          </p>
+          <p class="comment lt41">Новото ми гадже има най-големия петел, който съм виждал. Никога досега не съм се забавлявал толкова много със секса.👍
+Не разбрах как го направи, но наскоро ми каза една тайна: той използва този продукт. 💪😎</p>
+          <p>
+            
+          </p>
+          <a href="#toform"></a>
+        </div>
+
+
+      </div>
+      <div class="coma" bis_skin_checked="1">
+        <div class="col-avatar" bis_skin_checked="1">
+          <a href="#toform"><img alt="" class="img-circle" src="./img/av-02.jpg"></a>
+        </div>
+        <div class="col-comm-text" style="margin-left: 15px;" bis_skin_checked="1">
+          <p class="nickname"><a class="lt42" href="#toform">Божидар</a>
+          </p>
+          <p class="comment lt43">Приемам <a href="#toform">Testoy</a> от няколко седмици и съм по-щастлив от всякога! Пенисът ми стана твърд и малко по-голям. Дори след като свърших, все още имам кокал! Момичета, не ме оставяйте сама! 😁</p><a href="#toform"><img alt="" class="comimg" src="./img/coment1.jpg" style="width: 50%;"></a>
+        </div>
+      </div>
+      <div class="coma" bis_skin_checked="1">
+        <div class="col-avatar" bis_skin_checked="1">
+          <a href="#toform"><img alt="" class="img-circle" src="./img/av-03.jpg"></a>
+        </div>
+        <div class="col-comm-text" style="margin-left: 15px;" bis_skin_checked="1">
+          <p class="nickname"><a class="lt44" href="#toform">Victor</a>
+          </p>
+          <p class="comment lt45">БЛАГОДАРЯ ВИ. ❤ Започнах да приемам <a href="#toform">TTestoy </a> преди две седмици и
+ Аз самият не очаквах такива резултати! Сега мога да се чукам час или повече! Настроението и здравето ми се подобриха! Прекрасно е!</p><a href="#toform"></a>
+        </div>
+      </div>
+      <div class="coma" bis_skin_checked="1">
+        <div class="col-avatar" bis_skin_checked="1">
+          <a href="#toform"><img alt="" class="img-circle" src="./img/av-06.jpg"></a>
+        </div>
+        <div class="col-comm-text" style="margin-left: 15px;" bis_skin_checked="1">
+          <p class="nickname"><a class="lt46" href="#toform">Калоян </a></p>
+          <p class="comment lt47">Мой приятел от САЩ каза, че мъжете там също пият Testoy, но аз още не съм го пробвал.
+             🤔🤔</p>
+         
+        </div>
+      </div>
+      <div class="coma" bis_skin_checked="1">
+        <div class="col-avatar" bis_skin_checked="1">
+          <a href="#toform"><img alt="" class="img-circle" src="./img/av-08.jpg"></a>
+        </div>
+        <div class="col-comm-text" style="margin-left: 15px;" bis_skin_checked="1">
+          <p class="nickname"><a class="lt48" href="#toform">Станислава</a>
+          </p>
+          <p class="comment lt49">Също така реших да поръчам този продукт за моя съпруг, докато
+ 👍😱<a href="#toform">отстъпката все още е налична.</a></p>
+        </div>
+      </div>
+      <div class="coma" bis_skin_checked="1">
+        <div class="col-avatar" bis_skin_checked="1">
+          <a href="#toform"><img alt="" class="img-circle" src="./img/av-07.jpg"></a>
+        </div>
+        <div class="col-comm-text" style="margin-left: 15px;" bis_skin_checked="1">
+          <p class="nickname"><a class="lt50" href="#toform">Владимир</a>
+          </p>
+          <p class="comment lt51">Вече месец пия този продукт и не мога да повярвам на очите си! Членът ми е твърд като камък и дори порасна! Момичета, харесва ли ви?
+               😎😎😎</p>
+          <a href="#toform"><img alt="" class="comimg" src="./img/coment2.jpg" style="width: 50%;"></a>
+        </div>
+      </div>
+      <div class="coma" bis_skin_checked="1">
+        <div class="col-avatar" bis_skin_checked="1">
+          <a href="#toform"><img alt="" class="img-circle" src="./img/av-09.jpg"></a>
+        </div>
+        <div class="col-comm-text" style="margin-left: 15px;" bis_skin_checked="1">
+          <p class="nickname"><a class="lt52" href="#toform">Григор</a>
+          </p>
+          <p class="comment lt53">Поръчах този продукт, нямам търпение! Искам да изненадам приятелката си в леглото !
+
+          </p>
+        </div>
+      </div>
+      <div class="coma" bis_skin_checked="1">
+        <div class="col-avatar" bis_skin_checked="1">
+          <a href="#toform"><img alt="" class="img-circle" src="./img/av-13.jpg"></a>
+        </div>
+        <div class="col-comm-text" style="margin-left: 15px;" bis_skin_checked="1">
+          <p class="nickname"><a class="lt54" href="#toform">Мирослав</a>
+          </p>
+          <p class="comment lt55">Какво добро момиче си, искам да съм ти мъж, ахаха !!</p>
+        </div>
+      </div>
+      <div class="coma" bis_skin_checked="1">
+        <div class="col-avatar" bis_skin_checked="1">
+          <a href="#toform"><img alt="" class="img-circle" src="./img/av-11.jpg"></a>
+        </div>
+        <div class="col-comm-text" style="margin-left: 15px;" bis_skin_checked="1">
+          <p class="nickname"><a class="lt56" href="#toform">Виктория</a>
+          </p>
+          <p class="comment lt57">Един мой приятел ми каза много за този продукт, той наистина работи! 😍</p>
+        </div>
+      </div>
+      <div class="coma" bis_skin_checked="1">
+        <div class="col-avatar" bis_skin_checked="1">
+          <a href="#toform"><img alt="" class="img-circle" src="./img/av-12.jpg"></a>
+        </div>
+        <div class="col-comm-text" style="margin-left: 15px;" bis_skin_checked="1">
+          <p class="nickname"><a class="lt58" href="#toform">Ивелина</a>
+          </p>
+          <p class="comment lt59">Купих Testoy за моя съпруг! Невероятно е! Пенисът се е увеличил по размер, продължителността на половия акт се е увеличила значително! Дори след еякулация пенисът остава еректирал!
+		  </p><a href="#toform"><img alt="" class="comimg" src="./img/coment3.jpg" style="width: 50%;"></a>
+        </div>
+      </div>
+      <div class="coma" bis_skin_checked="1">
+        <div class="col-avatar" bis_skin_checked="1">
+          <a href="#toform"><img alt="" class="img-circle" src="./img/av-14.jpg"></a>
+        </div>
+        <div class="col-comm-text" style="margin-left: 15px;" bis_skin_checked="1">
+          <p class="nickname"><a class="lt60" href="#toform">Стефан</a>
+          </p>
+          <p class="comment lt61">Купих това и ми омръзна да се чукам! хаха!</p>
+        </div>
+      </div>
+      <div class="coma" bis_skin_checked="1">
+        <div class="col-avatar" bis_skin_checked="1">
+          <a href="#toform"><img alt="" class="img-circle" src="./img/av-15.jpg"></a>
+        </div>
+        <div class="col-comm-text" style="margin-left: 15px;" bis_skin_checked="1">
+          <p class="nickname"><a class="lt62" href="#toform">Георги</a>
+          </p>
+          <p class="comment lt63">Повярвайте ми, наистина работи! Вече не се тревожа за потентността си преди секс. Всичко се случва като в младостта.</p>
+        </div>
+      </div>
+      <div class="coma" bis_skin_checked="1">
+        <div class="col-avatar" bis_skin_checked="1">
+          <a href="#toform"><img alt="" class="img-circle" src="./img/av-16.jpg"></a>
+        </div>
+        <div class="col-comm-text" style="margin-left: 15px;" bis_skin_checked="1">
+          <p class="nickname"><a class="lt64" href="#toform">Николай</a>
+          </p>
+          <p class="comment lt65">Единственият инструмент, който наистина работи.
+          </p>
+        </div>
+      </div>
+      <div class="coma" bis_skin_checked="1">
+        <div class="col-avatar" bis_skin_checked="1">
+          <a href="#toform"><img alt="" class="img-circle" src="./img/av-17.jpg"></a>
+        </div>
+        <div class="col-comm-text" style="margin-left: 15px;" bis_skin_checked="1">
+          <p class="nickname"><a class="lt66" href="#toform">Любомир</a>
+          </p>
+          <p class="comment lt67">Без да казвам на жена ми, купих 3 пакета, исках да я изненадам. Тя постоянно се чудеше какво не е наред с мен, защото сега я чуках по няколко пъти на ден. Изглежда, че тя ме харесва още повече. 😁😍 </p>
+        </div>
+      </div>
+      <div class="coma" bis_skin_checked="1">
+        <div class="col-avatar" bis_skin_checked="1">
+          <a href="#toform"><img alt="" class="img-circle" src="./img/av-20.jpg"></a>
+        </div>
+        <div class="col-comm-text" style="margin-left: 15px;" bis_skin_checked="1">
+          <p class="nickname"><a class="lt68" href="#toform">Васил</a>
+          </p>
+          <p class="comment lt69">Купих <a href="#toform">Testoy</a> на намалена цена. Доставя се за три дни.
+          </p>
+        </div>
+      </div>
+      <div class="coma" bis_skin_checked="1">
+        <div class="col-avatar" bis_skin_checked="1">
+          <a href="#toform"><img alt="" class="img-circle" src="./img/av-21.jpg"></a>
+        </div>
+        <div class="col-comm-text" style="margin-left: 15px;" bis_skin_checked="1">
+          <p class="nickname"><a class="lt70" href="#toform">Борис</a>
+          </p>
+          <p class="comment lt71">Надявам се всички да знаят за този продукт! Сега имам каменен член и мога да правя секс няколко пъти подред.
+          </p>
+        </div>
+      </div>
+      <div class="coma" bis_skin_checked="1">
+        <div class="col-avatar" bis_skin_checked="1">
+          <a href="#toform"><img alt="" class="img-circle" src="./img/av-19.jpg"></a>
+        </div>
+        <div class="col-comm-text" style="margin-left: 15px;" bis_skin_checked="1">
+          <p class="nickname"><a class="lt72" href="#toform">Десислава</a>
+          </p>
+          <p class="comment lt73">Познавам този продукт. Съпругът ми ги пи 2 месеца, но и след като ги спрях издържаха 6 месеца!</p>
+            <!-- <p>
+              <img src="img/otz2.jpeg" style="    max-width: 240px;width: 100%;" alt="">
+            </p> -->
+        </div>
+      </div>
+      <div class="coma" bis_skin_checked="1">
+        <div class="col-avatar" bis_skin_checked="1">
+          <a href="#toform"><img alt="" class="img-circle" src="./img/av-22.jpg"></a>
+        </div>
+        <div class="col-comm-text" style="margin-left: 15px;" bis_skin_checked="1">
+          <p class="nickname"><a class="lt74" href="#toform">Иван</a>
+          </p>
+          <p class="comment lt75">
+            Този инструмент наистина работи! И преди всичко е абсолютно безопасно! Сега имам богат сексуален живот.</p>
+        </div>
+      </div>
+      <div class="coma" bis_skin_checked="1">
+        <div class="col-avatar" bis_skin_checked="1">
+          <a href="#toform"><img alt="" class="img-circle" src="./img/av-23.jpg"></a>
+        </div>
+        <div class="col-comm-text" style="margin-left: 15px;" bis_skin_checked="1">
+          <p class="nickname"><a class="lt76" href="#toform">Петър</a>
+          </p>
+          <p class="comment lt77">Пробвах Testoy от любопитство, защото цената беше ниска. За първи път в живота си се любих два часа, практически без прекъсване! </p>
+        </div>
+      </div>
+      <div class="coma" bis_skin_checked="1">
+        <div class="col-avatar" bis_skin_checked="1">
+          <a href="#toform"><img alt="" class="img-circle" src="./img/av-24.jpg"></a>
+        </div>
+        <div class="col-comm-text" style="margin-left: 15px;" bis_skin_checked="1">
+          <p class="nickname"><a class="lt78" href="#toform">Димитър</a>
+          </p>
+          <p class="comment lt79">Къде мога да купя това?
+
+          </p>
+        </div>
+      </div>
+      <div class="coma" bis_skin_checked="1">
+        <div class="col-avatar" bis_skin_checked="1">
+          <a href="#toform"><img alt="" class="img-circle" src="./img/av-27.jpg"></a>
+        </div>
+        <div class="col-comm-text" style="margin-left: 15px;" bis_skin_checked="1">
+          <p class="nickname"><a class="lt80" href="#toform">Елена</a>
+          </p>
+          <p class="comment lt81">За да не купувате фалшификат, препоръчвам да го купувате само на този <a href="#toform">сайт.</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="otros-commentarios" bis_skin_checked="1">
+      <a class="lt82" href="#toform">Други коментари</a>
+     
+    </div>
+  </main>
+  <footer>
+    <div class="container" bis_skin_checked="1">
+      <div class="row" bis_skin_checked="1">
+        <div class="offset-md-2 col-md-8 offset-sm-0 col-sm-12" bis_skin_checked="1">
+          <div class="col-md-5 col-sm-6 col-5 lt83" bis_skin_checked="1"><b>Sexblog</b>България</div>
+          <div class="socialicons" bis_skin_checked="1">
+              <a class="footer-link" target="_blank" href="politic.html" style="color: rgb(102, 102, 102);display: block;text-align: center; margin-bottom: 20px;">Политика на
+ конфиденциалност</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <center>
+    <div class="footer-fixed" bis_skin_checked="1">
+      <div bis_skin_checked="1">
+        <p><span style="color:#e1c231; padding:0 2px; font-weight:700;">50% отстъпка.</span>Офертата изтича след: <span id="countdownTimer" data-minutes="47" data-seconds="00"><span class="hours" style="display: none">00</span><span class="minutes minutesSH">59</span>:<span class="seconds secondsSH">17</span></span></p>
+        <a href="#toform">Кликнете тук</a>
+      </div>
+    </div>
+  </center>
+
+
+
+
+
+  <script>
+    $(function () {
+      var nowDate = new Date();
+      var countDownDiff = Math.ceil((24 * 60 * 60) - (nowDate.getHours() * 60 * 60 + nowDate.getMinutes() * 60 + nowDate.getSeconds()));
+      var endDate = new Date(nowDate.getTime() + countDownDiff * 1000);
+      setInterval(function () {
+        var diffDate = new Date(endDate.getTime() - Date.now()),
+          h = (diffDate.getHours() > 9) ? diffDate.getHours() : '0' + diffDate.getHours(),
+          m = (diffDate.getMinutes() > 9) ? diffDate.getMinutes() : '0' + diffDate.getMinutes(),
+          s = (diffDate.getSeconds() > 9) ? diffDate.getSeconds() : '0' + diffDate.getSeconds();
+        $('.hoursSH').html(h);
+        $('.minutesSH').html(m);
+        $('.secondsSH').html(s);
+      }, 1000);
+    });
+  </script>
+
+
+
+  <script type="text/javascript">
+    $("a").click(function (e) {
+      e.preventDefault();
+      var destination = $('#toform').offset().top;
+      jQuery("html:not(:animated),body:not(:animated)").animate({ scrollTop: destination }, 800);
+      return false;
+    })
+  </script>
+
+
+<!-- Маска для номера -->
+<link rel="stylesheet" href="css/intlTelInput.min.css" />
+<style>
+  div.iti {
+    width: 100%;
+    height: 100%;
+  }
+  div.iti ul.iti__country-list {
+    max-height: 80vh;
+  }
+
+  .iti__flag-container {
+    display: none;
+  }
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/intlTelInput.js"
+        integrity="sha512-GKEK9SOXk4P4vIduy3P9BwkLvOHoFuGBtGnmVIF5StxOE0ZavtF5Q06+fmUJq2ePMVm/E4us1ISOAoPc2ZMYVQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+  const country = "BG" // здесь указываем страну для валидации
+
+  const phoneInputs = document.querySelectorAll('input[name="phone"]')
+  for (let i = 0; i < phoneInputs.length; i++) {
+    let phoneInput = phoneInputs[i]
+    let inp = intlTelInput(phoneInput, {
+      initialCountry: country,
+      autoFormat: true,
+      nationalMode: false,
+      allowDropdown: false,
+      utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/utils.js"
+    });
+
+    // Если поле пустое, добавляем при клике код гео
+    phoneInput.addEventListener('focus', function (event) {
+      if (phoneInput.value.length === 0) {
+        countryData = inp.getSelectedCountryData()
+        dialCode = countryData.dialCode
+        //phoneInput.value = "+" + dialCode
+      }
+    })
+
+    phoneInput.addEventListener('input', function (event) {
+      //phoneInput.value = phoneInput.value.replace(/[^0-9+]/g, '')
+    })
+  }
+</script>
+<!-- end -->
+
+
+
+
+
+  <!-- INTH_SNIPPET_BOTTOM -->
+  <div class="ever-popup" bis_skin_checked="1">
+    <div class="ever-popup__inner" bis_skin_checked="1">
+      <div class="ever-popup__close" bis_skin_checked="1"></div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
